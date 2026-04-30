@@ -220,9 +220,3 @@ jupyter lab notebooks/
 - **Probability calibration** — Platt scaling / isotonic regression for better-tuned confidence scores
 - **Airflow DAG** — daily pipeline refresh with freshness checks and alerting
 - **FastAPI endpoint** — serve delay probability for any `(carrier, origin, dep_hour)` combination
-
----
-
-## Resume bullet
-
-> Built a Flight Delay Intelligence system on 1M+ US domestic flights (BTS): a PostgreSQL warehouse ingested at 36k rows/sec via native COPY; SQL analytics with CTEs and window functions for delay root-cause attribution; an XGBoost classifier with class-balanced training and precision-recall threshold tuning that raised recall from 2% → 64% on a heavily imbalanced target; NOAA CDO weather enrichment at the origin-airport/hour level; and a 5-section Tableau dashboard surfacing delay rates, airline rankings, route risk scores, and model predictions.
