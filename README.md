@@ -163,7 +163,7 @@ flight-delay-intelligence/
 
 ### Prerequisites
 - Python 3.10+, PostgreSQL, Tableau Desktop (optional)
-
+- https://www.transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=b0-gvzr&gnoyr_VQ=FGJ&utm_source=chatgpt.com
 ### 1. Clone and install
 ```bash
 git clone <your-repo-url> flight-delay-intelligence
